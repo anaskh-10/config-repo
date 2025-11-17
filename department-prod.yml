@@ -1,3 +1,26 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:depdb
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+  h2:
+    console:
+      enabled: true
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.H2Dialect
+
+build:
+  version: "2.0"
+author:
+  name: "anas [Department PROD from github updated dimanche]"
+  email: "anaskhiari_Department_PROD@yahoo.com"
+
+
+
 build:
   version: "2.0"
 author:
